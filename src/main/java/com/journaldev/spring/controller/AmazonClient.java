@@ -36,9 +36,9 @@ public class AmazonClient {
 //    private String secretKey;
     
     private String endpointUrl = "https://s3.ap-south-1.amazonaws.com";
-    private String bucketName = "test-upload-argano";
-    private String accessKey = "AKIASTMTRDMNYJSHEH5E";
-    private String secretKey = "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";
+    private String bucketName = "bucket_name";
+    private String accessKey = "user_access_key";
+    private String secretKey = "user_secret_key";
     
     @PostConstruct
     private void initializeAmazon() {
