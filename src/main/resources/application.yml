@@ -1,8 +1,8 @@
 amazonProperties:
   endpointUrl: https://s3.ap-south-1.amazonaws.com
-  accessKey: AKIASTMTRDMNYJSHEH5E
-  secretKey: 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
-  bucketName: test-upload-argano
+  accessKey: user_access_key
+  secretKey: user_secret_key
+  bucketName: bucket_name
  
 spring:
   servlet:
